@@ -404,7 +404,7 @@ function chose_music () {
         'Christmas Morgue', 
         '林檎売りの泡沫少女', 
     ];
-    document.getElementById("show_text").innerHTML = `選ばれたのは...<span class="span-big"><a href="https://www.youtube.com/results?search_query=` +  items[random] + `%20official" class="span-big-url">` + items[random] + `</a></span>です!`;
+    document.getElementById("show_text").innerHTML = `選ばれたのは...<span class="span-big"><a href="https://www.youtube.com/results?search_query=` +  items[random] + `%20officialボカロ" class="span-big-url">` + items[random] + `</a></span>です!`;
     gazou(imgs[random]);
 };
 
